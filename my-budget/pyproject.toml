@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "my-budget"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius Henrique Silva Bastos <viniciushsbastos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dash = "^2.11.1"
+dash-bootstrap-components = "1.1.0"
+dash-bootstrap-templates = "1.0.5"
+dash-core-components = "2.0.0"
+dash-html-components = "2.0.0"
+dash-table = "5.0.0"
+gunicorn = "20.1.0"
+numpy = "1.22.3"
+plotly = "5.7.0"
+pandas = "1.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

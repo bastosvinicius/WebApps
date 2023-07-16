@@ -1,13 +1,13 @@
-from dash import html, dcc
 import dash
-from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
+from dash import dcc, html
+from dash.dependencies import Input, Output
 
 # import from folders
 from app import *
-from components import sidebar, dashboards, extratos
+from components import dashboards, extratos, sidebar
 
 # DataFrames and Dcc.Store
 
